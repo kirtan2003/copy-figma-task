@@ -16,7 +16,7 @@ function App() {
           <li>Flashcard</li>
           <li>Contact</li>
           <li>FAQ</li>
-          <button className='gradient-button gap-10 '><span className='w-[48px] h-[22px] font-inter font-medium text-base leading-6'>Login</span></button>
+          <button className='gradient-button gap-10 flex justify-center items-center'><span className='w-[48px] h-[22px] font-inter mb-1 font-medium text-base leading-6'>Login</span></button>
         </ul>
       </nav>
 
