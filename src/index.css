@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo{
+    padding-left: 104px;
+    padding-top: 32px;
+}
+
+.gradient-button {
+    background: linear-gradient(to bottom, rgba(6, 40, 110, 1), rgba(22, 78, 192, 1));
+    color: #fff;
+    border-radius: 32px;
+    cursor: pointer;
+    width: 128px;
+    height: 48px;
+    padding-top: 13px ;
+    padding-right: 40px;
+    padding-bottom: 13px;
+    padding-left: 40px ;
+  }
+
+.gradientColor {
+    border-image: linear-gradient(to right, rgba(33, 126, 236, 1), rgba(8, 34, 153, 1)) 1;
+}  

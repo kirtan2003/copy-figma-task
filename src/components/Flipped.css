@@ -1,0 +1,36 @@
+.flip-container {
+  perspective: 1000px;
+  width: 712px; /* Adjust this according to your image dimensions */
+  height: 393.19px; /* Adjust this according to your image dimensions */
+}
+
+.flip-container .flipper {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-container.flipped .flipper {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card {
+  width: 712px; /* Adjust this according to your image dimensions */
+  height: 393.19px; /* Adjust this according to your image dimensions */
+}
